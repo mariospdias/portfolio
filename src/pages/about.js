@@ -56,7 +56,7 @@ const about = () => {
                 Olá, sou o Mário, um desenvolvedor web e designer de UI/UX com
                 paixão por criar designs bonitos, funcionais, e experiências
                 digitais centradas no usuário. Com 4 anos de experiência na
-                área. estou sempre procurando maneiras novas e inovadoras de dar
+                área estou sempre procurando maneiras novas e inovadoras de dar
                 vida às visões de meus clientes.
               </p>
               <p className="my-4 font-medium">
