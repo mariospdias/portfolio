@@ -51,11 +51,10 @@ const Education = () => {
             info="Cursos concluídos em tópicos avançados em Front-end e Back-end."
           />
           <Details
-            type="Bacharelado em Design de Games"
+            type="Bacharelado em Design, Design de Games e Mídia Digital"
             time="2015-2018"
             place="Universidade Anhembi Morumbi"
-            info="Os cursos relevantes incluíram Estruturas e Algoritmos de Dados, Animação 2D e 3D, Lógica de Programação e Inteligência Artificial.
-            Inteligência."
+            info="Os cursos relevantes incluíram Estruturas e Algoritmos de Dados, Animação 2D e 3D, Lógica de Programação e Inteligência Artificial."
           />
         </ul>
       </div>

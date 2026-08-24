@@ -52,31 +52,40 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Desenvolvedor Full Stack"
-            company="CNT Log e-Commerce Logistics"
-            companyLink="https://ri.via.com.br/a-companhia/nossas-marcas/"
-            time="2023-Atualmente"
-            address="Barueri - SP"
-            work="Trabalho em uma equipe responsável por desenvolver novos recursos para o setor logístico da Via Varejo,
-            incluindo a melhoria das integrações fulfillment e
-            desenvolvimento de novas ferramentas para análise e visualização de dados."
+            position="Engenheiro de Software III"
+            company="Grupo Casas Bahia"
+            companyLink="https://www.grupocasasbahia.com.br/"
+            time="Março de 2023 - Atualmente (3 anos e 6 meses)"
+            address="São Paulo, SP"
+            work="Organizo as demandas do time no desenvolvimento do ERP de Fulfillment/Logística, avaliando viabilidade
+            técnica e conduzindo refinamento com as áreas de negócio. Atuo full stack (PHP, Node.js, React/Next.js) e
+            sou responsável por CI/CD e testes automatizados direto na esteira. Implementei fluxos de desenvolvimento
+            com agentes de IA (SDD), reduzindo em ~60% o tempo de ciclo de desenvolvimento (ideia → deploy) e elevando
+            a estabilidade/disponibilidade da aplicação. Simplifiquei o fluxo de agendamento de abastecimento para
+            clientes, entregando valor direto ao negócio. Implantei observabilidade end-to-end: scan de CVEs com
+            Trivy na esteira de CI, dashboards de segurança e monitoramento de UX com Microsoft Clarity. Administração
+            de banco de dados; infraestrutura em AWS e Kubernetes."
           />
           <Details
-            position="Desenvolvedor Front End"
+            position="Desenvolvedor de Front-end"
             company="BEYOUNG"
             companyLink="https://beyoung.com.br/"
-            time="2019-2022"
+            time="Outubro de 2019 - Março de 2022 (2 anos e 6 meses)"
             address="São Paulo, SP"
-            work="Trabalhei no desenvolvimento de Landing Pages, elaboração e configuração de e-mail marketing,
-            desenvolvimento e sustentação de blog e a elaboração de layouts com foco em User Experience(UX)."
+            work="Responsável pelo layout e desenvolvimento de landing pages de campanhas em ReactJS. Defini regras e
+            desenvolvi peças de e-mail marketing. Desenvolvimento e manutenção de blog em WordPress. Stack do dia a
+            dia: ReactJS, AngularJS, JavaScript, PHP, CSS e HTML."
           />
           <Details
             position="Desenvolvedor Full Stack"
             company="Proprietário Direto"
             companyLink="https://www.proprietariodireto.com.br/"
-            time="01/2019-10/2019"
+            time="Janeiro de 2019 - Outubro de 2019 (10 meses)"
             address="São Paulo, SP"
-            work="Trabalhei com o desenvolvimento da plataforma com integração com meios de pagamento, administração e desenvolvimento de banco de dados e integração."
+            work="Atuei de ponta a ponta no produto — front-end (Angular, JavaScript Vanilla), back-end (PHP,
+            Laravel/Lumen), sustentação de código legado e DevOps. Desenvolvi API REST e o back-end de pagamentos
+            online; criei e administrei o banco de dados. Contribuí com iniciativas de inovação e cuidei da UX da
+            plataforma."
           />
         </ul>
       </div>
