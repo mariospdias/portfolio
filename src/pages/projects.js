@@ -133,7 +133,7 @@ const projects = () => {
               <FeaturedProject
                 title="sdd-starter-kit"
                 summary="Framework open source de referência para Spec-Driven Development (SDD) com agentes de IA: templates de spec, prompt gerado a partir da spec, exemplo real em TypeScript implementado via TDD e CI com scan de vulnerabilidades (Trivy)."
-                link="https://sdd-starter-kit.netlify.app"
+                link="https://github.com/mariospdias/sdd-starter-kit"
                 github="https://github.com/mariospdias/sdd-starter-kit"
                 type="Projeto em destaque"
                 img={projectSddStarterKit}
