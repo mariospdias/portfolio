@@ -1,8 +1,8 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from "@/components/AnimatedText";
+import GeometricAnimation from "@/components/GeometricAnimation";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
@@ -13,8 +13,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>MD | Portfólio</title>
-        <meta name="description" content="Mário Dias | Portfólio" />{" "}
+        <title>Mário Dias | Engenheiro de Software Sênior & Tech Lead-track</title>
+        <meta
+          name="description"
+          content="Mário Dias | Engenheiro de Software Sênior Full Stack, especialista em fluxos de IA (SDD) e liderança técnica"
+        />{" "}
       </Head>
       <TransitionEffect />
 
@@ -22,28 +25,22 @@ export default function Home() {
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 md:w-full">
-              <div className="rounded-full overflow-hidden bg-slate-600 mx-16">
-                <Image
-                  src={profilePic}
-                  alt="MarioDias"
-                  className="w-full h-auto lg:hidden md:inline-block md:w-full"
-                  priority={true}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-                />
-              </div>
+              <GeometricAnimation className="max-w-md mx-auto px-16 md:px-8" />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Tornando visão em realidade com código e design."
+                text="Engenharia sênior com IA aplicada."
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl md:mt-4"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                Olá, Sou um Desenvolvedor Full Stack com habilidades em Design
-                UX. Bem-vindo ao meu portfólio! Aqui, você encontrará uma
-                experiência envolvente e visualmente atraente para explorar meu
-                trabalho e habilidades. Sinta-se à vontade para explorar meus
-                projetos. Estou ansioso para receber seu feedback e discutir
-                oportunidades de colaboração. Obrigado por visitar!
+                Olá, sou o Mário — Engenheiro de Software Sênior Full Stack,
+                hoje trilhando o caminho para Tech Lead. Atuo em um dos
+                sistemas mais críticos da operação do Grupo Casas Bahia (ERP
+                de Fulfillment/Logística), unindo profundidade técnica, uso
+                estratégico de IA no desenvolvimento (SDD) e visão de negócio.
+                Sinta-se à vontade para explorar meus projetos e habilidades.
+                Estou ansioso para receber seu feedback e discutir novas
+                oportunidades. Obrigado por visitar!
                 <br /> <br /> Mário Dias
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">

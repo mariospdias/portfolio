@@ -51,6 +51,9 @@ const Skills = () => {
         <Skill name="PHP" x="18vw" y="22vw" />
         <Skill name="TypeScript" x="-38vw" y="-5vw" />
         <Skill name="Docker" x="45vw" y="15vw" />
+        <Skill name="Java" x="-32vw" y="24vw" />
+        <Skill name="AWS" x="8vw" y="-32vw" />
+        <Skill name="Kubernetes" x="-44vw" y="10vw" />
       </div>
     </>
   );
