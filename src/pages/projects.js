@@ -9,6 +9,7 @@ import project1 from "../../public/images/projects/hero-section-apple.png";
 import project2 from "../../public/images/projects/home-section-dashboard.png";
 import project3Dark from "../../public/images/projects/home-section-portfolio-dark.png";
 import project3Light from "../../public/images/projects/home-section-portfolio-light.png";
+import projectSddStarterKit from "../../public/images/projects/sdd-starter-kit.png";
 import useThemeSwitcher from "../components/hooks/useThemeSwitcher";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -128,6 +129,16 @@ const projects = () => {
             className="mb-16 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+            <div className="col-span-12">
+              <FeaturedProject
+                title="sdd-starter-kit"
+                summary="Framework open source de referência para Spec-Driven Development (SDD) com agentes de IA: templates de spec, prompt gerado a partir da spec, exemplo real em TypeScript implementado via TDD e CI com scan de vulnerabilidades (Trivy)."
+                link="https://github.com/mariospdias/sdd-starter-kit"
+                github="https://github.com/mariospdias/sdd-starter-kit"
+                type="Projeto em destaque"
+                img={projectSddStarterKit}
+              />
+            </div>
             <div className="col-span-12">
               <FeaturedProject
                 title="Landing Page de Produto Apple"
