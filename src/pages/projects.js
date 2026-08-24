@@ -10,6 +10,8 @@ import project2 from "../../public/images/projects/home-section-dashboard.png";
 import project3Dark from "../../public/images/projects/home-section-portfolio-dark.png";
 import project3Light from "../../public/images/projects/home-section-portfolio-light.png";
 import projectSddStarterKit from "../../public/images/projects/sdd-starter-kit.png";
+import projectMiniFulfillment from "../../public/images/projects/mini-fulfillment.png";
+import projectTechLeadToolkit from "../../public/images/projects/tech-lead-toolkit.png";
 import useThemeSwitcher from "../components/hooks/useThemeSwitcher";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -137,6 +139,26 @@ const projects = () => {
                 github="https://github.com/mariospdias/sdd-starter-kit"
                 type="Projeto em destaque"
                 img={projectSddStarterKit}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="mini-fulfillment"
+                summary="Demo full stack de rastreamento de pedidos de fulfillment/logística (dados fictícios), pensada como referência de deploy em Kubernetes na AWS: Next.js + Prisma/PostgreSQL, Dockerfile multi-stage, manifests k8s completos e CI/CD com scan de vulnerabilidades (Trivy)."
+                link="https://mini-fulfillment.netlify.app"
+                github="https://github.com/mariospdias/mini-fulfillment"
+                type="Projeto em destaque"
+                img={projectMiniFulfillment}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="tech-lead-toolkit"
+                summary="Ferramenta web para priorizar demandas de time com uma matriz visual de esforço × impacto — cadastre demandas e arraste os cards entre os quadrantes (quick wins, grandes apostas, baixa prioridade, reavaliar). Inclui importação opcional via API do Trello."
+                link="https://tech-lead-toolkit.netlify.app"
+                github="https://github.com/mariospdias/tech-lead-toolkit"
+                type="Projeto em destaque"
+                img={projectTechLeadToolkit}
               />
             </div>
             <div className="col-span-12">
